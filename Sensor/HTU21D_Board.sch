@@ -1,0 +1,234 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:PowerDEEI
+LIBS:PASIVOS
+LIBS:Circuitos_Integrados
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:HTU21D_Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HTU21D U1
+U 1 1 58FA9A9C
+P 5488 3234
+F 0 "U1" H 5858 2886 50  0000 C CNN
+F 1 "HTU21D" H 5482 3472 50  0000 C CNN
+F 2 "Housings_DFN_QFN:DFN-6-1EP_3x3mm_Pitch0.95mm" H 5220 2888 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5364 2790 50  0001 C CNN
+	1    5488 3234
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 58FA9BF2
+P 4463 3726
+F 0 "#PWR01" H 4463 3476 50  0001 C CNN
+F 1 "GND" H 4463 3576 50  0000 C CNN
+F 2 "" H 4463 3726 50  0000 C CNN
+F 3 "" H 4463 3726 50  0000 C CNN
+	1    4463 3726
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 58FA9D72
+P 6738 3456
+F 0 "C1" H 6788 3631 50  0000 L CNN
+F 1 "0.1uF" H 6788 3556 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6776 3306 50  0001 C CNN
+F 3 "" H 6763 3556 50  0001 C CNN
+F 4 "xxxx" H 6863 3356 60  0001 C CNN "Info Huella"
+F 5 "xxxx" H 6738 3176 60  0001 C CNN "manf#"
+	1    6738 3456
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4738 3334
+NoConn ~ 6238 3334
+$Comp
+L +3.3V #PWR02
+U 1 1 58FAA21F
+P 6876 3078
+F 0 "#PWR02" H 6876 2928 50  0001 C CNN
+F 1 "+3.3V" H 6876 3218 50  0000 C CNN
+F 2 "" H 6876 3078 50  0000 C CNN
+F 3 "" H 6876 3078 50  0000 C CNN
+	1    6876 3078
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 58FAB178
+P 6738 3693
+F 0 "#PWR03" H 6738 3443 50  0001 C CNN
+F 1 "GND" H 6738 3543 50  0000 C CNN
+F 2 "" H 6738 3693 50  0000 C CNN
+F 3 "" H 6738 3693 50  0000 C CNN
+	1    6738 3693
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR04
+U 1 1 58FABBC9
+P 8745 2753
+F 0 "#PWR04" H 8745 2603 50  0001 C CNN
+F 1 "+3.3V" H 8745 2893 50  0000 C CNN
+F 2 "" H 8745 2753 50  0000 C CNN
+F 3 "" H 8745 2753 50  0000 C CNN
+	1    8745 2753
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 58FABBD4
+P 8414 3109
+F 0 "#PWR05" H 8414 2859 50  0001 C CNN
+F 1 "GND" H 8414 2959 50  0000 C CNN
+F 2 "" H 8414 3109 50  0000 C CNN
+F 3 "" H 8414 3109 50  0000 C CNN
+	1    8414 3109
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 58FABC4B
+P 8414 2802
+F 0 "#FLG06" H 8414 2897 50  0001 C CNN
+F 1 "PWR_FLAG" H 8414 2982 50  0000 C CNN
+F 2 "" H 8414 2802 50  0000 C CNN
+F 3 "" H 8414 2802 50  0000 C CNN
+	1    8414 2802
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 58FABC6B
+P 8740 3040
+F 0 "#FLG07" H 8740 3135 50  0001 C CNN
+F 1 "PWR_FLAG" H 8740 3220 50  0000 C CNN
+F 2 "" H 8740 3040 50  0000 C CNN
+F 3 "" H 8740 3040 50  0000 C CNN
+	1    8740 3040
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 P1
+U 1 1 58FCBCA9
+P 5588 2216
+F 0 "P1" H 5588 2466 50  0000 C CNN
+F 1 "CONN_01X04" V 5688 2216 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 5588 2216 50  0001 C CNN
+F 3 "" H 5588 2216 50  0000 C CNN
+	1    5588 2216
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR08
+U 1 1 58FCC03E
+P 5637 2507
+F 0 "#PWR08" H 5637 2357 50  0001 C CNN
+F 1 "+3.3V" H 5637 2647 50  0000 C CNN
+F 2 "" H 5637 2507 50  0000 C CNN
+F 3 "" H 5637 2507 50  0000 C CNN
+	1    5637 2507
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 58FCC098
+P 5806 2501
+F 0 "#PWR09" H 5806 2251 50  0001 C CNN
+F 1 "GND" H 5806 2351 50  0000 C CNN
+F 2 "" H 5806 2501 50  0000 C CNN
+F 3 "" H 5806 2501 50  0000 C CNN
+	1    5806 2501
+	0    -1   -1   0   
+$EndComp
+Text Label 5437 2536 3    60   ~ 0
+SCK
+Text Label 4650 3134 2    60   ~ 0
+DATA
+Wire Wire Line
+	4650 3134 4738 3134
+Wire Wire Line
+	6238 3134 6372 3134
+Wire Wire Line
+	6238 3234 6876 3234
+Wire Wire Line
+	6876 3234 6876 3078
+Wire Wire Line
+	4463 3726 4463 3234
+Wire Wire Line
+	4463 3234 4738 3234
+Wire Wire Line
+	6738 3306 6738 3234
+Wire Wire Line
+	6738 3234 6737 3234
+Connection ~ 6737 3234
+Wire Wire Line
+	6738 3693 6738 3606
+Wire Wire Line
+	8745 2753 8745 3041
+Wire Wire Line
+	8745 3041 8740 3041
+Wire Wire Line
+	8740 3041 8740 3040
+Wire Wire Line
+	8414 3109 8414 2802
+Wire Wire Line
+	5637 2507 5637 2416
+Wire Wire Line
+	5637 2416 5638 2416
+Wire Wire Line
+	5806 2501 5738 2501
+Wire Wire Line
+	5738 2501 5738 2416
+Wire Wire Line
+	5538 2531 5538 2416
+Wire Wire Line
+	5437 2536 5437 2416
+Wire Wire Line
+	5437 2416 5438 2416
+Text Label 5538 2531 3    60   ~ 0
+DATA
+Text Label 6372 3134 2    60   ~ 0
+SCK
+$EndSCHEMATC
